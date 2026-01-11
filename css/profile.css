@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: antiquewhite;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background: #2c3e50;
+    color:white;
+    padding:2rem;
+    text-align: center;
+
+}
+
+main{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:20px;
+    width: 100%;
+}
+
+section{
+    background:white;
+    margin:10px 0;
+    padding:20px;
+    border-radius:8px;
+    width:100%;
+    max-width:600px;
+    box-shadow:0 2px 5px rgba(0,0,0,0,0.1);
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows skills to wrap on small screens */
+    list-style: none;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.skill-list li {
+    background: #3498db;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2c3e50;
+    color: white;
+}
+
+/* Mobile Friendly Adjustment */
+@media (max-width: 480px) {
+    header h1 { font-size: 1.5rem; }
+    section { width: 95%; }
+}
