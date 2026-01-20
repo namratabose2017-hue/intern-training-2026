@@ -7,7 +7,7 @@ Example:
 countVowels("Education") // 5
 
 
-###countCharacters(str)
+### countCharacters(str)
 Counts charaters in a string excluding spaces
 
 Example:
